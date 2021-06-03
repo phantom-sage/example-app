@@ -28,4 +28,14 @@ class ExampleTest extends TestCase
     {
         $this->assertFalse(false);
     }
+
+    /**
+     * Test case for breaking the website.
+     *
+     * @return void
+     */
+    public function test_foo()
+    {
+        $this->assertTrue(false);
+    }
 }

@@ -18,4 +18,14 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    /**
+     * Test false.
+     *
+     * @return void
+     */
+    public function test_false()
+    {
+        $this->assertFalse(false);
+    }
 }
